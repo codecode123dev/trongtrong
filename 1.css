@@ -233,7 +233,6 @@ section i:nth-child(even) {
 }
 
 @media (max-width: 650px) {
-    * {}
     .text-chuc {
         position: absolute;
         right: 36px;
@@ -361,7 +360,6 @@ section i:nth-child(even) {
 }
 
 @media (max-width: 700px) {
-    * {}
     div#video .iframe {
         width: 187px !important;
         height: 115px !important;
