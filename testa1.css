@@ -27,7 +27,7 @@ canvas#canvas {
 }
 
 div#beach {
-    background-image: url('/birthday/image/sinhnhat.jpg');
+    background-image: url('sinhnhat.jpg');
     background-size: cover;
     background-position: bottom right;
     background-size: 100px;

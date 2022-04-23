@@ -91,12 +91,14 @@
 
             <!-- change image -->
             <div class="image">
-                <img id="img" onclick="changeImage()" src="/birthday/image/chuc-mung-sinh-nhat-avatar.png" alt="">
+                <!-- <img id="img" onclick="changeImage()" src="/birthday/image/chuc-mung-sinh-nhat-avatar.png" alt=""> -->
+                <img id="img" onclick="changeImage()" src="chuc-mung-sinh-nhat-avatar.png" alt="">
             </div>
             <script>
                 var index = 1;
                 changeImage = function() {
-                    var imgs = ["/birthday/image/chuc-mung-sinh-nhat-avatar.png", "/thaydoianh/image/anh.jpg", "/birthday/image/anhgau.PNG", "/birthday/image/tao.PNG"];
+                    // var imgs = ["/birthday/image/chuc-mung-sinh-nhat-avatar.png", "/thaydoianh/image/anh.jpg", "/birthday/image/anhgau.PNG", "/birthday/image/tao.PNG"];
+                    var imgs = ["chuc-mung-sinh-nhat-avatar.png", "anh.jpg", "anhgau.PNG", "tao.PNG"];
                     document.getElementById('img').src = imgs[index];
                     index++;
                     if (index == 4) {
@@ -462,22 +464,7 @@
                     backSpeed: 100,
                     loop: true
                 });
-
-
-
-
-
-
-
             });
-
-
-
-
-
-
-
-
 
         });
     </script>
