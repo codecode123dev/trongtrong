@@ -9,18 +9,20 @@
     <meta property="og:title" content="Happy birthday Trang" />
     <meta property="og:description" content="Happy birthday Trang" />
     <meta property="og:image" content="https://i1.sndcdn.com/artworks-000496259538-r8alo3-t500x500.jpg" />
-    <title>Happy Brithday</title>
+    <title>Happy Brithday Tran nhớ</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- load thư vien animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="testb.css">
-    <link rel="stylesheet" href="testa1.css">
+
+
+    <link rel="stylesheet" href="a1.css">
+    <link rel="stylesheet" href="b1.css">
     <style>
         #img {
-            width: 250px;
-            height: 200px;
+            width: 284px;
+            height: 180px;
         }
     </style>
 </head>
@@ -47,8 +49,7 @@
     <div id="beach"></div>
     <!-- 969 - 630 -->
 
-    <!-- <img src="/birthday/image/chuc-mung-sinh-nhat-avatar.png" alt="Jumping-people" id="people" /> -->
-    <!-- <img src="/birthday/image/anhgau.PNG" alt="Jumping-people" id="people" /> -->
+    <img src="jumping.png" alt="Jumping-people" id="people" />
 
     <div id="merrywrap" class="merrywrap">
         <section>
@@ -87,21 +88,18 @@
     <div id="video">
         <div class="iframe">
 
-            <!-- <img class="image-slide animate__animated animate__flash animate__delay-1s animate__infinite 3" src="/birthday/image/anh.jpg"> -->
-
+            <!-- <img class="image-slide animate__animated animate__flash animate__delay-1s animate__infinite 3" src="72484699_977477749256851_161663801677053952_n.jpg"> -->
             <!-- change image -->
             <div class="image">
-                <!-- <img id="img" onclick="changeImage()" src="/birthday/image/chuc-mung-sinh-nhat-avatar.png" alt=""> -->
                 <img id="img" onclick="changeImage()" src="chuc-mung-sinh-nhat-avatar.png" alt="">
             </div>
             <script>
                 var index = 1;
                 changeImage = function() {
-                    // var imgs = ["/birthday/image/chuc-mung-sinh-nhat-avatar.png", "/thaydoianh/image/anh.jpg", "/birthday/image/anhgau.PNG", "/birthday/image/tao.PNG"];
-                    var imgs = ["chuc-mung-sinh-nhat-avatar.png", "anh.jpg", "anhgau.PNG", "tao.PNG"];
+                    var imgs = ["chuc-mung-sinh-nhat-avatar.png", "anh.jpg", "6.jpg", "2.jpg", "7.jpg", "8.jpg"];
                     document.getElementById('img').src = imgs[index];
                     index++;
-                    if (index == 4) {
+                    if (index == 6) {
                         index = 0;
                     }
                 }
@@ -109,16 +107,23 @@
             </script>
 
             <div class="box_nhac ">
-                <div class="pulse"><i class="fas fa-play-circle"></i><span class="opentext"></span></div>
+                <div class="pulse"><i class="fas fa-play-circle"></i><span class="opentext">Click</span></div>
                 <audio controls preload class="nhac">
             <source src="FILE_20220422_222642_Happy Birthday to You_Ulrik Lundstrm_1650620400.mp3" type="audio/mpeg">
       </audio>
+
+
+
             </div>
 
         </div>
     </div>
 
+
     </div>
+
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
@@ -154,6 +159,16 @@
         bubbles()
 
         $(document).ready(function() {
+
+            //slide-up script 
+
+            // var typed = new Typed('.typing',{
+            //     strings:["xinh đẹp,",'xịn xò,','và luôn vui vẻ', 'yêu đời nhaaa....'],
+            //     typeSpeed:130,
+            //     backSpeed:100,
+            //     loop:true
+            // });
+
 
             window.requestAnimFrame = function() {
                 return window.requestAnimationFrame ||
@@ -451,12 +466,25 @@
                 document.querySelector('section i').style.backgroundColor = 'transparent';
                 loop();
 
+                // var w, h;
+                // if (window.innerWidth >= 1000) {
+                //   w = 295;h = 185;
+                // } else
+                // {
+                //   w = 255;h = 155;
+                // }
 
+                // var ifrm = document.createElement("img");
+                // ifrm.setAttribute("src", "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/p600x600/244508339_613320869666395_3940715447536528546_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=TZRgv16oERQAX9ci6rI&_nc_ht=scontent.fhan2-3.fna&oh=c1b9cc3285f2c6b8f2ad9ebffdc21ea2&oe=616573D5");
+                // //ifrm.style.width = `${w}px`;
+                // //ifrm.style.height = `${h}px`;
+                // ifrm.style.border = 'none';
+                // document.querySelector('#video').appendChild('ifrm');
             }
 
             $(document).ready(function() {
 
-
+                //slide-up script 
 
                 var typed = new Typed('.typing', {
                     strings: ["luôn vui vẻ ", 'luôn tràn đầy sức khỏe', 'luôn luôn xinh đẹp', 'luôn luôn yêu đời nhaaa....', 'gặp thật nhiều may mắn trong cuộc sống'],
@@ -464,7 +492,22 @@
                     backSpeed: 100,
                     loop: true
                 });
+
+
+
+
+
+
+
             });
+
+
+
+
+
+
+
+
 
         });
     </script>

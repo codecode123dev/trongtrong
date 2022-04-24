@@ -27,10 +27,10 @@ canvas#canvas {
 }
 
 div#beach {
-    background-image: url('/birthday/image/sinhnhat.jpg');
+    background-image: url('beachsil2.png');
     background-size: cover;
     background-position: bottom right;
-    background-size: 100px;
+    background-size: 1300px;
     background-repeat: no-repeat;
 }
 
@@ -202,8 +202,8 @@ div#sea {
 .icons {
     position: absolute;
     left: 10px;
-    top: 450px;
-    width: 400px;
+    top: 0%;
+    width: 300px;
     height: auto;
     transform: translateY(10px) rotate(-20deg);
     --animate-duration: 5s;
@@ -216,9 +216,9 @@ div#sea {
 
 .icons .row span {
     font-family: "Dancing Script", cursive !important;
-    color: #c76075;
+    color: #e5e5e5;
     text-shadow: 4px 4px 0 rgba(96, 125, 139, 0.4);
-    font-size: 30px;
+    font-size: 50px;
     display: inline-block;
     opacity: 0;
     transition: transform 0.5s ease-in, opacity 0.7s;
@@ -414,7 +414,7 @@ div#sea {
 .step-4 .icons .row span,
 .step-3 .icons .row span {
     /*animation: wobble 0.6s linear infinite forwards;*/
-    color: #c76075;
+    color: #c6e2ff;
     animation: neon .08s ease-in-out infinite alternate;
 }
 
@@ -425,10 +425,10 @@ div#sea {
 
 @keyframes neon {
     from {
-        text-shadow: 0 0 6px rgba(228, 202, 225, 0.92), 0 0 30px rgba(228, 202, 227, 0.34), 0 0 12px rgba(214, 30, 242, 0.52), 0 0 21px rgba(242, 30, 207, 0.92), 0 0 34px rgba(242, 30, 207, 0.78), 0 0 54px rgba(242, 30, 221, 0.92);
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
     }
     to {
-        text-shadow: 0 0 6px rgba(228, 202, 220, 0.98), 0 0 30px rgba(228, 202, 228, 0.42), 0 0 12px rgba(231, 30, 242, 0.58), 0 0 22px rgba(253, 70, 186, 0.84), 0 0 38px rgba(231, 30, 242, 0.88), 0 0 60px #f21ecb;
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
     }
 }
 
@@ -485,22 +485,17 @@ div#sea {
     .icons .row span {
         font-size: 25px;
     }
-    /* #people {
-        left: 620px;
-        bottom: 400px;
-        width: 150px;
-        border: solid 0, 5px palevioletred;
-        opacity: 0.8;
-    } */
+    #people {
+        left: 80px;
+        bottom: 70px;
+        width: 160px;
+    }
     div#beach {
-        width: 100%;
-        background-size: 100%;
-        margin: 0 5px;
-        padding: 0 10px;
+        background-size: 2000px;
     }
     div#video {
-        right: 515px;
-        bottom: 200px;
+        right: 290px;
+        bottom: 235px;
     }
     div#video iframe {
         right: 292px;
