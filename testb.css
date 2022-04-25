@@ -13,7 +13,7 @@ span.typing-text {
 }
 
 .opentext {
-    color: #02af2b8e !important;
+    color: #fe85c88e !important;
     font-size: 15px !important;
 }
 
@@ -21,7 +21,7 @@ span.typing-text {
     font-size: 34px;
     z-index: -1000000;
     padding-top: 2px;
-    color: green
+    color: rgb(246, 114, 206)
 }
 
 .box_nhac {
@@ -40,6 +40,7 @@ audio.nhac {
     top: -7px;
     left: -6px;
     z-index: 10000;
+    margin: 0 0 0 185px;
 }
 
 .pulse {
@@ -49,6 +50,7 @@ audio.nhac {
     color: #fff;
     text-align: center;
     animation: animateqq 2s linear infinite !important;
+    margin: 0 0 0 190px;
 }
 
 @keyframes animateqq {
