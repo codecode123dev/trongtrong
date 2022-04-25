@@ -1,7 +1,13 @@
+/* @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"); */
+
 html,
 body,
 .container {
     height: 100vh;
+    /* font-family: 'Kaushan Script','Sail', cursive; */
 }
 
 body {
@@ -21,7 +27,7 @@ canvas#canvas {
 }
 
 div#beach {
-    background-image: url('beachsil2.png');
+    background-image: url('beachsil26.png');
     background-size: cover;
     background-position: bottom right;
     background-size: 1300px;
@@ -204,15 +210,14 @@ div#sea {
 }
 
 .icons .row {
-    width: 150%;
+    width: 100%;
     text-align: center;
-    padding: 130px 0 0 0;
 }
 
 .icons .row span {
     font-family: "Dancing Script", cursive !important;
     color: #e5e5e5;
-    text-shadow: 4px 4px 0 rgba(138, 96, 139, 0.4);
+    text-shadow: 4px 4px 0 rgba(96, 125, 139, 0.4);
     font-size: 50px;
     display: inline-block;
     opacity: 0;
@@ -409,7 +414,7 @@ div#sea {
 .step-4 .icons .row span,
 .step-3 .icons .row span {
     /*animation: wobble 0.6s linear infinite forwards;*/
-    color: #fa6180;
+    color: #c6e2ff;
     animation: neon .08s ease-in-out infinite alternate;
 }
 
@@ -420,10 +425,10 @@ div#sea {
 
 @keyframes neon {
     from {
-        text-shadow: 0 0 6px rgba(228, 202, 225, 0.92), 0 0 30px rgba(241, 140, 218, 0.34), 0 0 12px rgba(246, 83, 216, 0.52), 0 0 21px rgba(246, 95, 221, 0.92), 0 0 34px rgba(249, 113, 208, 0.78), 0 0 54px rgba(251, 112, 193, 0.92);
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
     }
     to {
-        text-shadow: 0 0 6px rgba(228, 202, 220, 0.98), 0 0 30px rgba(248, 149, 228, 0.42), 0 0 12px rgba(238, 70, 224, 0.58), 0 0 22px rgba(245, 108, 195, 0.84), 0 0 38px rgba(248, 81, 195, 0.88), 0 0 60px #ff68cf;
+        text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
     }
 }
 
@@ -478,7 +483,7 @@ div#sea {
         height: 300px;
     }
     .icons .row span {
-        font-size: 40px;
+        font-size: 20px;
     }
     #people {
         left: 80px;
