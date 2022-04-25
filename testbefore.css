@@ -40,7 +40,7 @@ audio.nhac {
     top: -7px;
     left: -6px;
     z-index: 10000;
-    margin: 0 0 0 215px;
+    margin: 0 0 0 150px;
 }
 
 .pulse {
@@ -50,7 +50,7 @@ audio.nhac {
     color: #fff;
     text-align: center;
     animation: animateqq 2s linear infinite !important;
-    margin: 0 0 0 220px;
+    margin: 0 0 0 90px;
 }
 
 @keyframes animateqq {
@@ -58,13 +58,13 @@ audio.nhac {
         box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.7), 0 0 0 0 rgba(94, 255, 0, 0.7);
     }
     40% {
-        box-shadow: 0 0 0 15px rgba(255, 0, 64, 0), 0 0 0 0 rgba(93, 243, 43, 0.7);
+        box-shadow: 0 0 0 15px rgba(255, 0, 64, 0), 0 0 0 0 rgba(0, 255, 149, 0.7);
     }
     80% {
-        box-shadow: 0 0 0 15px rgba(255, 0, 64, 0), 0 0 0 10px rgba(0, 245, 237, 0.593);
+        box-shadow: 0 0 0 15px rgba(255, 0, 64, 0), 0 0 0 10px rgba(165, 11, 50, 0.129);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(255, 0, 64, 0), 0 0 0 10px rgba(255, 0, 64, 0.333);
+        box-shadow: 0 0 0 0 rgba(255, 0, 64, 0), 0 0 0 10px rgba(255, 0, 64, 0);
     }
 }
 
@@ -292,7 +292,7 @@ section i:nth-child(even) {
     .icons .row span {
         font-family: "Dancing Script", cursive !important;
         color: #e5e5e5;
-        font-size: 20px !important;
+        font-size: 28px !important;
         /* transition: transform 0.3s ease-in, opacity 0.5s !important; */
     }
     section .box {
