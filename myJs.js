@@ -12,7 +12,7 @@ const textConfig = {
     text11: "",
     text12: "Gửi ở đây này",
     //////////
-    text13: "Trên kia kìaaa",
+    text13: "Kia kìaa",
 };
 
 $(document).ready(function() {
