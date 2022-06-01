@@ -38,7 +38,7 @@ $(document).ready(function() {
         Swal.fire({
             title: textConfig.text1,
             text: textConfig.text2,
-            imageUrl: "img/8.jpg",
+            imageUrl: "8.jpg",
             imageWidth: 300,
             imageHeight: 300,
             background: '#fff url("iput-bg.jpg")',
